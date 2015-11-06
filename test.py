@@ -19,3 +19,6 @@ assertSolution(970299, [99,0,0])
 assertSolution(2, [1, 1, 0])
 assertSolution(16, [2, 2, 0])
 assertSolution(1940598, [99,99,0])
+
+assertSolution(3, [1, 1, 1])
+
