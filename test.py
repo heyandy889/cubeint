@@ -2,17 +2,20 @@
 from cubeint import find_integer_solutions
 import math
 
-def assertSolution(n, expected):
+def assertSolution(n, expected, debug=True):
 	actual = find_integer_solutions(n)
 
-	errorstring = ''
+	errorstring = 'n = ' + str(n)
 	errorstring += '\nexpected: ' + str(expected)
 	errorstring += '\nactual: ' + str(actual)
 
+	if debug:
+		print 'f(' + str(n) + ') = ' + str(actual)
 	assert actual == expected, errorstring
 
 #assertSolution(n, [a, b, c])
 
+'''
 #known cubes
 assertSolution(0, [0,0,0])
 assertSolution(1, [1,0,0])
@@ -22,6 +25,8 @@ assertSolution(970299, [99,0,0])
 #double a cubed number
 assertSolution(2, [1, 1, 0])
 assertSolution(16, [2, 2, 0])
+assertSolution(54, [3, 3, 0])
+assertSolution(128, [4, 4, 0])
 assertSolution(1940598, [99,99,0])
 
 #triple a cubed number
@@ -42,6 +47,7 @@ assertSolution(22, [None, None, None])
 assertSolution(23, [None, None, None])
 assertSolution(31, [None, None, None])
 assertSolution(32, [None, None, None])
+'''
 
 #just working through simple cases
 assertSolution(0, [0, 0, 0])
