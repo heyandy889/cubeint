@@ -1,6 +1,6 @@
 # cubeint
 
-<img src="https://i.ytimg.com/vi/wymmCdLdPvM/hqdefault.jpg" href="https://www.youtube.com/watch?v=wymmCdLdPvM">
+<a href="https://www.youtube.com/watch?v=wymmCdLdPvM"><img src="https://i.ytimg.com/vi/wymmCdLdPvM/hqdefault.jpg"></a>
 
 <b><a href="/watch?v=wymmCdLdPvM" title="The Uncracked Problem with 33 - Numberphile">The Uncracked Problem with 33 - Numberphile</a></b>
 
