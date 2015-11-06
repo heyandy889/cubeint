@@ -80,5 +80,5 @@ assertSolution(198829, [34, 22, 53])
 assertSolution(236762, [36, 17, 57])
 assertSolution(336393, [60, 14, 49])
 
-
+assertSolution(6, [2, -1, -1])
 
